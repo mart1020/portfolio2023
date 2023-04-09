@@ -1,0 +1,191 @@
+
+/* tipografia-----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Josefin+Sans:ital,wght@1,300&family=Roboto+Mono:wght@200&display=swap');
+/*------------------------------------------*/
+
+/*CALIGRAFIA--------------------------------*/
+h1{
+    font-family: 'Clicker Script', cursive;
+}
+
+h2, h4, h6, p{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+h3{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+
+/*--------------------------------------------*/
+/*Colores--------------------------------------*/
+nav, .page-footer{
+    background-color: #DCAD6D;
+}
+
+/*----------------------------------------------*/
+/*---VIDEO FONDO--------------------------------*/
+/*----------------------------------------------*/
+body {
+    position: relative;
+    margin: 0;
+    color: white;
+    
+  }
+  .sect {
+    width: 100%;
+    min-height: 500px;
+  }
+
+  video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
+  h1 {
+    margin: 0;
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+  h2 {
+    margin: 0;
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+
+  /*----------------------------------------------*/
+  /*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*trajetas*/
+/*----------------------------------------------*/
+.inicio{
+    display: flex;
+    justify-content: center;
+    flex: grow 4;
+    margin: 20px;
+    padding: 20px;
+    border: none;
+    
+    
+}
+p{
+    width: 300px;
+    height: 300px;
+}
+
+.flex-container{
+
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+
+}
+
+.flex-item{
+    justify-content: center;
+    /*border: 2px solid black;*/
+    flex-direction: row;
+    margin-left: 10px;
+    
+    
+    
+}
+
+/*-----------------------------------------*/
+/*--TRJETA EDUCACION------------------------*/
+/*-----------------------------------------*/
+
+.educacion{
+    flex-direction:row-reverse;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#educacion-medida{
+    margin-left: 30px;
+    padding: 20px 20px 20px 20px;
+}
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+    
+
+
+/*--------------------------------------------*/
+/*TARJETA HABILIDADES-------------------------*/
+/*--------------------------------------------*/
+
+/*#habilidades{
+    flex-direction: row-reverse;
+    
+}*/
+
+#habilidadesLogo{
+    margin-right: 40px;
+    
+}
+.logoPosicion{
+    border-radius: 20;
+}
+.logo{
+    height: 80px;
+    
+
+    
+}
+.logo:hover{
+    scale: 1.25;
+    filter:sepia(1.5)
+    
+
+}
+
+/*--------------------------------------------*/
+/*---TARJETAS PROYECTO----------------------------*/
+/*--------------------------------------------*/
+
+.card-small{
+    height: 50%;
+    width: 100%;
+    background-color: black
+    
+}
+#cardHorizontal{
+    background-color: black;
+}
+
+#imagen{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    
+}
+
+#img{
+    
+    width: 300px;
+    height: 200px;
+}
+
+
+/*--------------------------------------------*/
+/*--FOOTER------------------------------------*/
+/*--------------------------------------------*/
+
+#iconoContactos:hover{
+    scale: 1.1;
+}
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
